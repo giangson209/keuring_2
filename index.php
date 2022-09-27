@@ -33,67 +33,67 @@
                 <div class="row">
                     <div class="col-md-2">
                         <div class="item-keuringen">
-                            <a href="">Elektriciteit algemeen</a>
+                            <a href="javascript:void(0)">Elektriciteit algemeen</a>
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="item-keuringen">
-                            <a href="">Laadpalen</a>
+                            <a href="javascript:void(0)">Laadpalen</a>
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="item-keuringen">
-                            <a href="">Thuisbattterijen &amp; zonnepanelen</a>
+                            <a href="javascript:void(0)">Thuisbattterijen &amp; zonnepanelen</a>
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="item-keuringen">
-                            <a href="">Gas dichtheids- onderzoek</a>
+                            <a href="javascript:void(0)">Gas dichtheids- onderzoek</a>
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="item-keuringen">
-                            <a href="">Gas Indienststelling</a>
+                            <a href="javascript:void(0)">Gas Indienststelling</a>
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="item-keuringen">
-                            <a href="">Plaats - beschrijving</a>
+                            <a href="javascript:void(0)">Plaats - beschrijving</a>
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="item-keuringen">
-                            <a href="">Immo stookolietank ondergronds</a>
+                            <a href="javascript:void(0)">Immo stookolietank ondergronds</a>
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="item-keuringen">
-                            <a href="">Gas openzetten gasteller</a>
+                            <a href="javascript:void(0)">Gas openzetten gasteller</a>
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="item-keuringen">
-                            <a href="">Waterafvoer riool</a>
+                            <a href="javascript:void(0)">Waterafvoer riool</a>
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="item-keuringen">
-                            <a href="">Waterkeuring binneninstalatie</a>
+                            <a href="javascript:void(0)">Waterkeuring binneninstalatie</a>
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="item-keuringen">
-                            <a href="">Asbest </a>
+                            <a href="javascript:void(0)">Asbest </a>
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="item-keuringen">
-                            <a href="">EPC</a>
+                            <a href="javascript:void(0)">EPC</a>
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="item-keuringen">
-                            <a href="">Stookolietank Bovengronds</a>
+                            <a href="javascript:void(0)">Stookolietank Bovengronds</a>
                         </div>
                     </div>
                 </div>
@@ -119,12 +119,15 @@
                     <div class="row">
                         <div class="col-md-6"><input type="text" placeholder="Telefoonnummer" class="txt_field"></div>
                         <div class="col-md-6">
-                            <select name="" id="">
-                                <option value="">Plaats</option>
-                                <option value="">Plaats 1</option>
-                                <option value="">Plaats 2</option>
-                                <option value="">Plaats 3</option>
-                            </select>
+                            <div class="select-choose">
+                                <div class="arr-select"><img src="images/arr-select.png" class="img-fluid" alt=""></div>
+                                <select name="" id="">
+                                    <option value="">Plaats</option>
+                                    <option value="">Plaats 1</option>
+                                    <option value="">Plaats 2</option>
+                                    <option value="">Plaats 3</option>
+                                </select>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -241,12 +244,6 @@
             <div class="title text-center">
                 <h2>Welke gegevens mogen we gebruiken <br>voor de facturatie?</h2>
             </div>
-            <div class="choose-option">
-                <div class="checkbox-choose">
-                    <input type="checkbox" id="choose-4" checked>
-                    <label for="choose-4">Zelfde persoon als voordien ingegeven..</label>
-                </div>
-            </div>
             <div class="frm-form">
                 <div class="item-frm">
                     <div class="row">
@@ -265,6 +262,41 @@
                         <div class="col-md-6"><input type="text" placeholder="Telefoon facturatie" class="txt_field"></div>
                         <div class="col-md-6"><input type="text" placeholder="Notaris" class="txt_field"></div>
                     </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+    <section class="box-keuring-choose">
+        <div class="container">
+            <div class="title text-center">
+                <h2>Wanneer vindt de keuring <br>best plaats?</h2>
+            </div>
+            <div class="frm-form">
+                <div class="item-frm">
+                    <div class="row justify-content-center">
+                        <div class="col-md-6">
+                            <div class="select-choose">
+                                <div class="arr-select"><img src="images/arr-select.png" class="img-fluid" alt=""></div>
+                                <select name="" id="">
+                                    <option value="">Tussen Ma 4 juli - Vr 8 juli </option>
+                                    <option value="">Tussen Ma 4 juli - Vr 9 juli </option>
+                                    <option value="">Tussen Ma 4 juli - Vr 10 juli </option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div> 
+        </div>
+    </section>
+    <section class="box-keuring-choose">
+        <div class="container">
+            <div class="desc text-center">
+                Een van onze medewerkers neemt spoedig <br>contact met je op voor de inplanning van jouw keuring!
+            </div>
+            <div class="frm-form pt-0 text-center">
+                <div class="item-frm">
+                    <input type="submit" value="Vraag een keuring aan" class="btn_field">
                 </div>
             </div> 
         </div>
